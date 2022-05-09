@@ -56,7 +56,6 @@ async function main() {
         busStop.attributes.latitude,
       ]);
     });
-    console.log("locations", locations);
 
     // create and move marker
     const marker = createMarker(map, locations[0]);
